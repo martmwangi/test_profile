@@ -1,93 +1,9 @@
-header{
-    position: absolute;
-    height: 130px;
-    width: 100%;
+.first{
+    width:100%;
+    height: 100vh;
     margin: 0;
     padding: 0;
-    margin-top: -30px;
-    overflow: hidden;
-    z-index: 10000000;
-}
-body{
-    margin: 0;
-    padding: 0;
-}
-nav{
-    height: 150px;
-
-   margin-top: 55px;
-    padding: 0;
-    width: 100%;
-    text-align: center;
-    text-decoration: none;
-
-}
-nav ul li{
-    display: inline;
-    text-decoration: none;
-    list-style: none;
-    text-align: center;
-    padding: 15px;
-
-}
-.pr{
-    max-height: 100px;
-    max-width: 100px;
-}
-.green{
-     background-color: rgb(8,126,85);
-}
-/*Styling for the links*/
-nav ul a{
-    text-decoration: none;
-}
-nav ul li{
-    padding-left: 45px;
-    padding-right: 55px;
-    text-decoration: none;
-}
-nav ul a li:hover{
-    color: rgb(182,213,0);
-    border-bottom: 2px solid white;
-
-}
-nav ul a li{
-    display: inline;
-    text-decoration: none;
-    font-size: 25px;
-    color: white;
-    text-align: center;
-}
-nav ul a li:hover{
-        color: rgb(182,213,0)
-            text-decoration: none;
-}
-
-
-/*
-
-
-
-Styling the container*/
-.hdr{
-    max-width: 100%;
-}
-.img-hdr{
-    background: red;
-    height: 400px;
-    max-width: 100%;
-}
-.one{
-    height: 200px;
-    background: red;
-}
-.two-a{
-    height: 200px;
-    background: red;
-
-}
-.two-b{
-    height: 200px;
-    background: url(../images/pro.jpg);
-    overflow: hidden;
+    background-image: url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
